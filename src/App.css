@@ -1,0 +1,54 @@
+.card
+{
+  width: 360px;
+  height: 200px;
+  border:  1px solid black;
+  border-radius:  10px;
+  box-shadow: 2px 2px 5px black;
+  font-family: sans-serif;
+}
+
+.card .card-title
+{
+    text-align: center;
+}
+
+.card .card-content
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card .card-content label
+{
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+
+.card .card-button-content
+{
+    text-align: center;
+}
+
+.btn
+{
+    width: 30%;
+    height: 30%;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+
+.btn-success
+{
+    background-color: #7878de;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px black;
+}
+
+.btn-success:hover
+{
+    background-color: #7171ac;
+}
