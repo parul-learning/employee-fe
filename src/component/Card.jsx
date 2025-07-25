@@ -60,7 +60,7 @@ function Card(props)
               </div>
 
               <div className="card-content">
-                  <label>User Name</label><input name="username" type="text"  onChange={(e) => handleUserNameChange(e)}/>
+                  <label>Email Id</label><input name="username" type="text"  onChange={(e) => handleUserNameChange(e)}/>
               </div>
               <div className="card-content">
                   <label>Password</label><input name="username" type="password" onChange={(e) => handleUserPasswordChange(e)} />
